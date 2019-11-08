@@ -66,7 +66,7 @@ const UserSchema = new mongoose.Schema({
 #Exportar
 module.exports = mongoose.model('User',UserSchema);
 
-9. `Criar o sessioncontroller
+9. Criar o sessioncontroller
 
 //Adicionar no outro sessioncontroller.js
 const User = require('../models/User');
@@ -97,5 +97,4 @@ module.exports = routes;
 
 };
 
-
-52 minutes
+59.18 minutes ( configurando o multer)
